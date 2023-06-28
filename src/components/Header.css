@@ -1,0 +1,16 @@
+/* xs */
+@media (max-width: 475px) {
+    .drop_menu{
+        padding-left: 12px ;
+        padding-right:12px;
+
+    }
+    .dropmenu_txt{
+        font-size: 0.65rem;
+    }
+}
+  @media (max-width: 385px) {
+  
+  }
+
+

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './Header.css'
 import logo from "./../assets/Images/logo.png";
 import {
   HiHome,
@@ -59,8 +60,8 @@ function Header() {
             <HeaderItem name={""} Icon={HiDotsVertical} />
             {toggle ? (
               <div
-                className="absolute mt-3 bg-[#121212] 
-            border-[1px] border-gray-700 p-3 px-5 py-4"
+                className=" drop_menu absolute mt-3 bg-[#121212] 
+            border-[1px] border-gray-700 p-3 px-5 py-4 "
               >
                 {menu.map(
                   (item, index) =>
